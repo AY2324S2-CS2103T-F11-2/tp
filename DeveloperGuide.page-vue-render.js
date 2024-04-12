@@ -326,7 +326,7 @@ with(this){return _c('h4',{attrs:{"id":"use-case-uc2-list-all-users"}},[_v("Use 
 with(this){return _c('h4',{attrs:{"id":"mss-2"}},[_v("MSS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#mss-2","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("CLM requests to list all users.")]),_v(" "),_c('li',[_v("CLM enters the command.")]),_v(" "),_c('li',[_v("MyBookshelf retrieves the information from the Contact List.")]),_v(" "),_c('li',[_v("MyBookshelf displays a list of all users, including their names, contact information, and any other relevant details.")]),_v(" "),_c('li',[_v("CLM reviews the list of users.")])])}
+with(this){return _c('ol',[_c('li',[_v("CLM intends to list all users.")]),_v(" "),_c('li',[_v("CLM enters the command.")]),_v(" "),_c('li',[_v("MyBookshelf retrieves the information from the Contact List.")]),_v(" "),_c('li',[_v("MyBookshelf displays a list of all users, including their names, contact information, and any other relevant details.")]),_v(" "),_c('li',[_v("CLM reviews the list of users.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_c('strong',[_v("Use case ends")])])])}
@@ -344,7 +344,7 @@ with(this){return _c('h4',{attrs:{"id":"use-case-uc3-edit-user-s-information"}},
 with(this){return _c('h4',{attrs:{"id":"mss-3"}},[_v("MSS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#mss-3","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("CLM requests to edit a user's information.")]),_v(" "),_c('li',[_v("CLM enters the command.")]),_v(" "),_c('li',[_v("MyBookshelf updates the user's information according to the provided changes.")]),_v(" "),_c('li',[_v("MyBookshelf notifies CLM that the user has been successfully edited.")])])}
+with(this){return _c('ol',[_c('li',[_v("CLM intends to edit a user's information.")]),_v(" "),_c('li',[_v("CLM enters the command.")]),_v(" "),_c('li',[_v("MyBookshelf updates the user's information according to the provided changes.")]),_v(" "),_c('li',[_v("MyBookshelf notifies CLM that the user has been successfully edited.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_c('strong',[_v("Use case ends")])])])}
@@ -362,7 +362,7 @@ with(this){return _c('h4',{attrs:{"id":"use-case-uc4-find-users"}},[_v("Use case
 with(this){return _c('h4',{attrs:{"id":"mss-4"}},[_v("MSS:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#mss-4","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("CLM requests to find users by name.")]),_v(" "),_c('li',[_v("CLM enters the command.")]),_v(" "),_c('li',[_v("MyBookshelf searches for users whose names contain any of the provided keywords.")]),_v(" "),_c('li',[_v("MyBookshelf returns a list of users matching at least one keyword.")]),_v(" "),_c('li',[_v("CLM reviews the list of users returned by the search.")])])}
+with(this){return _c('ol',[_c('li',[_v("CLM intends to find users by name.")]),_v(" "),_c('li',[_v("CLM enters the command.")]),_v(" "),_c('li',[_v("MyBookshelf searches for users whose names contain any of the provided keywords.")]),_v(" "),_c('li',[_v("MyBookshelf returns a list of users matching at least one keyword.")]),_v(" "),_c('li',[_v("CLM reviews the list of users returned by the search.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_c('strong',[_v("Use case ends")])])])}
@@ -380,7 +380,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: Borrower borrows a book fro
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Borrower requests to borrow a book.")])]),_v(" "),_c('li',[_c('p',[_v("Librarian requests to list borrowers.")])]),_v(" "),_c('li',[_c('p',[_v("MyBookshelf shows a list of borrowers.")])]),_v(" "),_c('li',[_c('p',[_v("Librarian adds the book to the borrower.")])]),_v(" "),_c('li',[_c('p',[_v("MyBookshelf updates the borrower's details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Borrower requests to borrow a book.")])]),_v(" "),_c('li',[_c('p',[_v("Librarian requests to list all users.")])]),_v(" "),_c('li',[_c('p',[_v("MyBookshelf shows the list of all users.")])]),_v(" "),_c('li',[_c('p',[_v("Librarian adds the book to the borrower's borrow book list.")])]),_v(" "),_c('li',[_c('p',[_v("MyBookshelf updates the borrower's details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -398,13 +398,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: Borrower returns a book to 
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Borrower requests to return a book.")])]),_v(" "),_c('li',[_c('p',[_v("Librarian requests to list borrowers.")])]),_v(" "),_c('li',[_c('p',[_v("MyBookshelf shows a list of borrowers.")])]),_v(" "),_c('li',[_c('p',[_v("Librarian removes the book from the borrower.")])]),_v(" "),_c('li',[_c('p',[_v("MyBookshelf updates the borrower's details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Borrower requests to return a book.")])]),_v(" "),_c('li',[_c('p',[_v("Librarian requests to list users.")])]),_v(" "),_c('li',[_c('p',[_v("MyBookshelf shows the list of all users.")])]),_v(" "),_c('li',[_c('p',[_v("Librarian removes the book from the borrower's borrow book list.")])]),_v(" "),_c('li',[_c('p',[_v("MyBookshelf updates the borrower's details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("4a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("4a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 3.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("4a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("4a1. MyBookshelf shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 3.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
@@ -446,6 +446,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Fri, 12 Apr 2024, 14:54:30 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Fri, 12 Apr 2024, 14:57:49 GMT+8]")])])])}
 }];
   
