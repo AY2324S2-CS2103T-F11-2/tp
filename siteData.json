@@ -52,7 +52,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "merit-score-feature": "Merit Score feature",
-        "library-and-librarylogic-feature": "Library and LibraryLogic feature",
+        "library-and-librarystorage-feature": "Library and LibraryStorage feature",
         "limit-command-and-threshold-feature": "Limit Command and Threshold feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "future-enhancements": "Future Enhancements",
