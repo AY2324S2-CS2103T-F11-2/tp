@@ -55,7 +55,6 @@
         "library-and-librarylogic-feature": "Library and LibraryLogic feature",
         "limit-command-and-threshold-feature": "Limit Command and Threshold feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
-        "proposed-data-archiving": "[Proposed] Data archiving",
         "future-enhancements": "Future Enhancements",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
@@ -137,8 +136,6 @@
         "future-features": "Future Features",
         "introducing-more-flexibility-for-clear": "Introducing more flexibility for clear",
         "introducing-unique-id-for-books": "Introducing unique id for books",
-        "archiving-data-files": "Archiving data files",
-        "details-coming-soon": "Details coming soon...",
         "faq": "FAQ",
         "known-issues": "Known issues",
         "command-summary": "Command summary"
